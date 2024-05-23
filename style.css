@@ -65,6 +65,44 @@ nav li a:hover{
 	text-align: center;
 }
 
+.appealPoint h2 {
+	text-align: center;
+	padding: 40px 0 0 0;
+	font-size: 35px;
+}
+
+.appealPoint p {
+	font-size: 22px;
+	
+}
+
+.SourceCode h2 {
+	text-align: center;
+	font-size: 35px;
+	padding: 80px 0 0 0;
+}
+
+.SourceCode object {
+	padding: 0 0 0 200px;
+	width: 60%;
+	height: 400px;
+}
+
+.gameOverviewText { 
+	padding: 50px 0 0 0;
+}
+
+.gameOverviewText h2 {
+	text-align: center;
+	font-size: 35px;
+	padding: 20px 0 5px 0;
+}
+
+.gameOverview {
+	text-align: center;
+	font-size: 22px;
+}
+
 /*gamePage*/
 .standardwidth h2 {
 	font-size: 30px;
@@ -143,17 +181,17 @@ nav li a:hover{
     margin: auto;
 }
 
-.gameOverviewText h2 {
+.ElementalGuardians_gameOverviewText h2 {
 	text-align: center;
 	font-size: 35px;
 	padding: 0 0 30px 0;
 }
 
-.gameOverview {
+.ElementalGuardians_gameOverview {
 	padding: 0 0 80px 0;
 }
 
-.gameOverview p {
+.ElementalGuardians_gameOverview p {
 	font-size: 18px;
 	padding: 50px 0 0 0;
 }
@@ -169,7 +207,7 @@ nav li a:hover{
 	height: 100%;
 }
 
-.gameOverview2 p {
+.ElementalGuardians_gameOverview2 p {
 	font-size: 18px;
 	padding: 50px 0 0 0;
 }
@@ -201,11 +239,6 @@ nav li a:hover{
 	padding: 100px 0 50px 0;
 }
 
-.ElementalGuardians_SourceCode h2{
-	text-align: center;
-	font-size: 35px;
-}
-
 /*FleetRecruitTrainingGround*/
 .FleetRecruitTrainingGround_gameImage {
 	text-align: center;
@@ -224,29 +257,6 @@ nav li a:hover{
 	text-align: center;
 	font-size: 35px;
 	padding: 30px 0 5px 0;
-}
-
-.FleetRecruitTrainingGround_appealPoint h2 {
-	text-align: center;
-	padding: 90px 0 0 0;
-	font-size: 35px;
-}
-
-.FleetRecruitTrainingGround_appealPoint p {
-	float: left;
-	font-size: 22px;
-	padding: 0 0 90px 0;
-}
-
-.FleetRecruitTrainingGround_SourceCode h2 {
-	text-align: center;
-	font-size: 35px;
-}
-
-.FleetRecruitTrainingGround_SourceCode object {
-	padding: 0 0 0 200px;
-	width: 60%;
-	height: 400px;
 }
 
 .FleetRecruitTrainingGround_gameIntelligence {
@@ -271,30 +281,7 @@ nav li a:hover{
 .FindTheMarkInDestruction_gameOverviewText h2 {
 	text-align: center;
 	font-size: 35px;
-	padding: 30px 0 5px 0;
-}
-
-.FindTheMarkInDestruction_appealPoint h2 {
-	text-align: center;
-	padding: 90px 0 0 0;
-	font-size: 35px;
-}
-
-.FindTheMarkInDestruction_appealPoint p {
-	font-size: 22px;
-	text-align: center;
-}
-
-.FindTheMarkInDestruction_SourceCode h2 {
-	text-align: center;
-	padding: 90px 0 0 0;
-	font-size: 35px;
-}
-
-.FindTheMarkInDestruction_SourceCode object {
-	padding: 0 0 0 200px;
-	width: 60%;
-	height: 400px;
+	padding: 10px 0 5px 0;
 }
 
 .FindTheMarkInDestruction_gameIntelligence {
