@@ -45,6 +45,10 @@ nav li a:hover{
 	color: darkblue;
 }
 
+.self-Intriduction {
+	padding: 0 0 50px 0;
+}
+
 .self-Intriduction h2 {
 	font-size: 30px;
 	padding: 60px 0 10px 0;
@@ -105,10 +109,6 @@ nav li a:hover{
 .gameOverview {
 	text-align: center;
 	font-size: 22px;
-}
-
-.self-Intriduction {
-	padding: 0 0 50px 0;
 }
 
 /*gamePage*/
