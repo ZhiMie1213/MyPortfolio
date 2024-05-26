@@ -88,6 +88,10 @@ nav li a:hover{
 	height: 400px;
 }
 
+.SourceCode a {
+	text-align: center;
+}
+
 .gameOverviewText { 
 	padding: 50px 0 0 0;
 }
@@ -101,6 +105,10 @@ nav li a:hover{
 .gameOverview {
 	text-align: center;
 	font-size: 22px;
+}
+
+.self-Intriduction {
+	padding: 0 0 50px 0;
 }
 
 /*gamePage*/
