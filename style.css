@@ -45,6 +45,7 @@ nav li a:hover{
 	color: darkblue;
 }
 
+/*ホームページ*/
 .self-Intriduction {
 	padding: 0 0 50px 0;
 }
@@ -59,56 +60,6 @@ nav li a:hover{
 	font-size: 20px;
 	padding: 10px 0 0 0;
 	text-align: center;
-}
-
-.gameIntelligence {
-	padding: 100px 0 50px 0;
-}
-
-.gameIntelligence h2{
-	text-align: center;
-}
-
-.appealPoint h2 {
-	text-align: center;
-	padding: 40px 0 0 0;
-	font-size: 35px;
-}
-
-.appealPoint p {
-	font-size: 22px;
-	
-}
-
-.SourceCode h2 {
-	text-align: center;
-	font-size: 35px;
-	padding: 80px 0 0 0;
-}
-
-.SourceCode object {
-	padding: 0 0 0 200px;
-	width: 60%;
-	height: 400px;
-}
-
-.gitLink {
-	text-align: center;
-}
-
-.gameOverviewText { 
-	padding: 50px 0 0 0;
-}
-
-.gameOverviewText h2 {
-	text-align: center;
-	font-size: 35px;
-	padding: 20px 0 5px 0;
-}
-
-.gameOverview {
-	text-align: center;
-	font-size: 22px;
 }
 
 /*gamePage*/
@@ -139,56 +90,94 @@ nav li a:hover{
 	box-shadow: 0 0 15px rgba(0, 0, 0, .3);
 }
 
-.text h2 {
-	text-align: center;
-	padding: 50px 0 0 0;
-}
+/*共有*/
+	/*ゲーム名*/
+	.gameName h1{
+		font-size: 30px;
+		text-align: center;
+	}
 
-.test {
-	width: 100%;
-	margin-top: 40px;
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-}
+	/*ゲーム動画*/
+	.gameViedo {
+		text-align: center;
+	}
 
-.test img {
-	width: 100%;
-}
+	.gameViedo img{
+		width: 700px;
+		height: 550px;
+	}
 
-.test a {
-	width: 40%;
-	margin-bottom: 30px;
-	text-align: center;
-	-webkit-box-shadow: 0 0 15px rgba(0, 0, 0, .3);
-	-moz-box-shadow: 0 0 15px rgba(0, 0, 0, .3);
-	box-shadow: 0 0 15px rgba(0, 0, 0, .3);
-}
+	.gameViedo h2 {
+		font-size: 19px;
+		padding: 30px 0 30px 0;
+		width: 600px;
+		height: 150px;
+		margin: auto;
+	}
+
+	/*ゲーム概要*/
+	.gameOverviewText { 
+		padding: 50px 0 0 0;
+	}
+
+	.gameOverviewText h2 {
+		text-align: center;
+		font-size: 35px;
+		padding: 20px 0 5px 0;
+	}
+
+	.gameOverview {
+		text-align: center;
+		font-size: 22px;
+	}
+
+	/*苦労した点*/
+	.appealPoint h2 {
+		text-align: center;
+		padding: 150px 0 0 0;
+		font-size: 35px;
+	}
+
+	.appealPoint p {
+		text-align: center;
+		font-size: 22px;
+	}
+
+	/*担当箇所*/
+	.responsibleArea h2{
+		text-align: center;
+		padding: 150px 0 0 0;
+		font-size: 35px;
+	}
+
+	.responsibleArea p{
+		text-align: center;
+		font-size: 22px;
+	}
+
+	/*ソースコード*/
+	.sourceCode h2 {
+		text-align: center;
+		font-size: 35px;
+		padding: 80px 0 0 0;
+	}
+	.sourceCode object {
+		padding: 0 0 0 200px;
+		width: 60%;
+		height: 400px;
+	}
+
+	.sourceCodeLink {
+		text-align: center;
+	}
+
+	/*チームメンバー*/
+	.gameIntelligence {
+		text-align: center;
+		padding: 100px 0 50px 0;
+	}
 
 /*ElementalGuardians*/
-.gameName h1{
-	font-size: 30px;
-	text-align: center;
-}
-
-.gameImage {
-	text-align: center;
-}
-.gameImage img{
-	width: 700px;
-	height: 550px;
-	border-radius: 50%;
-	overflow: hidden;
-}
-
-.gameImage h2 {
-	font-size: 19px;
-	padding: 30px 0 30px 0;
-	width: 600px;
-	height: 150px;
-    margin: auto;
-}
-
 .ElementalGuardians_gameOverviewText h2 {
 	text-align: center;
 	font-size: 35px;
@@ -204,13 +193,13 @@ nav li a:hover{
 	padding: 50px 0 0 0;
 }
 
-.image1 {
+.ElementalGuardians_image1 {
 	float: left;
 	width: 600px;
 	magin: 30px 15px;
 }
 
-.image1 img {
+.ElementalGuardians_image1 img {
 	width: 100%;
 	height: 100%;
 }
@@ -220,104 +209,18 @@ nav li a:hover{
 	padding: 50px 0 0 0;
 }
 
-.image2 {
+.ElementalGuardians_image2 {
 	float: right;
 	width: 600px;
 	magin: 30px 15px;
 }
 
-.image2 img {
+.ElementalGuardians_image2 img {
 	width: 100%;
 	height: 100%;
 }
 
-.appealPoint h2 {
-	text-align: center;
-	padding: 150px 0 0 0;
-	font-size: 35px;
-}
-
-.appealPoint p {
-	text-align: center;
-	font-size: 22px;
-}
-
-.ElementalGuardians_gameIntelligence {
-	text-align: center;
-	padding: 100px 0 50px 0;
-}
-
-/*FleetRecruitTrainingGround*/
-.FleetRecruitTrainingGround_gameImage {
-	text-align: center;
-}
-.FleetRecruitTrainingGround_gameImage img{
-	width: 700px;
-	height: 550px;
-}
-
-.FleetRecruitTrainingGround_gameOverview {
-	text-align: center;
-	font-size: 22px;
-}
-
-.FleetRecruitTrainingGround_gameOverviewText h2 {
-	text-align: center;
-	font-size: 35px;
-	padding: 30px 0 5px 0;
-}
-
-.FleetRecruitTrainingGround_gameIntelligence {
-	text-align: center;
-	padding: 100px 0 50px 0;
-}
-
-/*FindTheMarkInDestruction*/
-.FindTheMarkInDestruction_gameImage {
-	text-align: center;
-}
-.FindTheMarkInDestruction_gameImage img{
-	width: 700px;
-	height: 550px;
-}
-
-.FindTheMarkInDestruction_gameOverview {
-	text-align: center;
-	font-size: 22px;
-}
-
-.FindTheMarkInDestruction_gameOverviewText h2 {
-	text-align: center;
-	font-size: 35px;
-	padding: 10px 0 5px 0;
-}
-
-.FindTheMarkInDestruction_gameIntelligence {
-	text-align: center;
-	padding: 100px 0 50px 0;
-}
-
 /*QuestOfKnights*/
-.QuestOfKnights_gameOverviewText h2 {
-	text-align: center;
-	font-size: 35px;
-	padding: 100px 0 0 0;
-}
-
-.QuestOfKnights_gameOverview {
-	padding: 0 0 80px 0;
-}
-
-.QuestOfKnights_gameOverview p {
-	font-size: 25px;
-	padding: 100px 0 0 0;
-}
-
-.QuestOfKnights_gameOverview2 p {
-	font-size: 25px;
-	padding: 70px 0 0 0;
-}
-
 .QuestOfKnights_image1 {
 	float: left;
 	width: 600px;
@@ -339,6 +242,27 @@ nav li a:hover{
 	width: 100%;
 	height: 100%;
 }
+
+.QuestOfKnights_gameOverviewText h2 {
+	text-align: center;
+	font-size: 35px;
+	padding: 100px 0 0 0;
+}
+
+.QuestOfKnights_gameOverview {
+	padding: 0 0 80px 0;
+}
+
+.QuestOfKnights_gameOverview p {
+	font-size: 25px;
+	padding: 100px 0 0 0;
+}
+
+.QuestOfKnights_gameOverview2 p {
+	font-size: 25px;
+	padding: 70px 0 0 0;
+}
+
 
 /*600px以上*/
 @media screen and (min-width: 600px){
