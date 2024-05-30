@@ -118,10 +118,10 @@ nav li a:hover{
 	/*ゲーム概要*/
 	.gameOverviewText { 
 		padding: 50px 0 0 0;
+		text-align: center;
 	}
 
 	.gameOverviewText h2 {
-		text-align: center;
 		font-size: 35px;
 		padding: 20px 0 5px 0;
 	}
@@ -132,37 +132,44 @@ nav li a:hover{
 	}
 
 	/*苦労した点*/
-	.appealPoint h2 {
+	.appealPoint {
+		padding: 50px 0 0 0;
 		text-align: center;
-		padding: 150px 0 0 0;
+	}
+
+	.appealPoint h2 {
 		font-size: 35px;
 	}
 
 	.appealPoint p {
-		text-align: center;
 		font-size: 22px;
 	}
 
 	/*担当箇所*/
-	.responsibleArea h2{
+	.responsibleArea {
 		text-align: center;
-		padding: 150px 0 0 0;
+		padding: 50px 0 0 0;
+	}
+
+	.responsibleArea h2{
 		font-size: 35px;
 	}
 
 	.responsibleArea p{
-		text-align: center;
 		font-size: 22px;
 	}
 
 	/*ソースコード*/
-	.sourceCode h2 {
+	.sourceCode {
 		text-align: center;
-		font-size: 35px;
-		padding: 80px 0 0 0;
+		padding: 50px 0 0 0;
 	}
+
+	.sourceCode h2 {
+		font-size: 35px;
+	}
+
 	.sourceCode object {
-		padding: 0 0 0 200px;
 		width: 60%;
 		height: 400px;
 	}
@@ -202,6 +209,10 @@ nav li a:hover{
 .ElementalGuardians_image1 img {
 	width: 100%;
 	height: 100%;
+}
+
+.ElementalGuardians_gameOverview2 {
+	padding: 0 0 100px 0;
 }
 
 .ElementalGuardians_gameOverview2 p {
@@ -281,5 +292,4 @@ nav li a:hover{
 	.standarwidht {
 		text-align: center;
 	}
-	
 }
